@@ -149,7 +149,7 @@ class StoretoLS{
   static addBookToLS(book){
     const books = StoretoLS.getBooksFromLS();
 
-    books.push(book)
+    books.push(book);
     
     localStorage.setItem('books', JSON.stringify(books));
   };
