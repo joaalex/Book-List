@@ -143,7 +143,7 @@ class StoretoLS{
     books.forEach(function(book){
       const ui = new UI();
       ui.addBook(book);
-    })
+    });
   };
 
   static addBookToLS(book){
